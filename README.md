@@ -4,13 +4,19 @@
 
 # Использование
 
-Загрузите `service-helper`
+Добавьте в проект `service-helper` через
 
 ```
 go get -u github.com/trcmkr/service-helper
 ```
 
-Или добавьте в секцию `tool` и сделайте
+Или с помощью секции `tool`, потом
 ```
 go mod tidy
+```
+
+После этих шагов выполните
+
+```
+go install github.com/trcmkr/service-helper@latest
 ```
