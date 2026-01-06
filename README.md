@@ -20,3 +20,10 @@ go mod tidy
 ```
 go install github.com/trcmkr/service-helper@latest
 ```
+
+# Новая версия 
+
+Делать релиз новой версии только с помощью команды
+```
+./release.sh <commit_name> major/minor/patch
+```
