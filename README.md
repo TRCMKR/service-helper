@@ -7,10 +7,10 @@
 Загрузите `service-helper`
 
 ```
-go install github.com/trcmkr/service-helper@latest
+go get -u github.com/trcmkr/service-helper
 ```
 
 Или добавьте в секцию `tool` и сделайте
 ```
-go tool install
+go mod tidy
 ```
