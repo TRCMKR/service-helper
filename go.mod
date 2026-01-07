@@ -1,4 +1,4 @@
-module github.com/trcmkr/service-helper
+module github.com/trcmkr/servitor
 
 go 1.25
 

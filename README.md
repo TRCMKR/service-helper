@@ -1,13 +1,13 @@
-# service-helper
+# servitor
 
 Простой генератор всего необходимого для быстрого создания сервисов на Go
 
 # Использование
 
-Добавьте в проект `service-helper` через
+Добавьте в проект `servitor` через
 
 ```
-go get -u github.com/trcmkr/service-helper
+go get -u github.com/trcmkr/servitor
 ```
 
 Или с помощью секции `tool`, потом
@@ -18,7 +18,7 @@ go mod tidy
 После этих шагов выполните
 
 ```
-go install github.com/trcmkr/service-helper@latest
+go install github.com/trcmkr/servitor@latest
 ```
 
 # Новая версия 

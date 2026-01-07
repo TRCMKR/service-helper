@@ -6,8 +6,8 @@ import (
 
 const (
 	Major = 0
-	Minor = 0
-	Patch = 4
+	Minor = 1
+	Patch = 0
 )
 
 func Version() string {
