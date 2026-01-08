@@ -26,7 +26,11 @@ func generateFile(gen *protogen.Plugin, file *protogen.File) {
 
 	filename := strings.TrimSuffix(path.Base(file.GeneratedFilenamePrefix), ".proto")
 	g.P("//go:embed " + filename + ".swagger.json")
-
 	varName := strcase.ToLowerCamel(string(file.Desc.Name())+"Swagger") + "JSON"
 	g.P("var " + varName + "[] byte")
+	g.P()
+
+	g.P("func SwaggerDef() []byte {")
+	g.P("return " + varName)
+	g.P("}")
 }
